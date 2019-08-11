@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 10px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* Header Image */
+
+.hero-image {
+    background-image: url("../imgs/bg-1.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#logo {
+    width: 250px;
+    /* margin-top: 10px; */
+    padding: 15px;
+}
+
+
+/* Navbar */
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links:hover {
+    color: red;
+}
+
+.nav-links {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-links {
+    line-height: 27px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 5%;
+    }
+    .main-nav {
+        display: flex;
+        /* margin-right: 30px; */
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+.left {
+    position: absolute;
+    width: 50%;
+    /* background: pink; */
+    /* float: left; */
+    height: 100px;
+    transform: skewY(4.5deg);
+    left: 0;
+    top: 857px;
+}
+
+.right {
+    position: absolute;
+    width: 50%;
+    /* background: lightseagreen; */
+    /* float: left; */
+    height: 100px;
+    transform: skewY(-4.5deg);
+    right: 0;
+    top: 857px;
+}
+
+
+/* section {
+    clear: float;
+} */
+
+.title {
+    font-size: 30px;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+.car-title {
+    padding: 20px;
+}
+
+
+/* Gallery */
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+    padding: 20px 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* 4 columns side by side */
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.active,
+.demo:hover {
+    opacity: 0.8;
+}
+
+.cars {
+    width: 100%;
+}
+
+.container-info,
+.item-left {
+    display: flex;
+}
+
+.item-left,
+.item,
+.item-left-sub,
+.item-right,
+.item-right-sub {
+    width: 50%;
+}
+
+.item-left-sub {
+    margin-left: auto;
+    width: 35%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#car-section {
+    padding-bottom: 40px;
+}
