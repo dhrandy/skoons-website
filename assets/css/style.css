@@ -23,7 +23,7 @@ h2 {
 /* Header Image */
 
 .hero-image {
-    background-image: url("../imgs/bg-1.jpg");
+    background-image: url("../imgs/bg-3.jpg");
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
@@ -158,7 +158,8 @@ h1 {
 
 /* Hide the images by default */
 
-.mySlides {
+.mySlides,
+.mySlides-1 {
     display: none;
 }
 
@@ -184,10 +185,13 @@ h1 {
     width: 25%;
 }
 
-.active,
-.demo:hover {
+
+/* .active,
+.active-1,
+.demo:hover,
+.demo-1:hover {
     opacity: 0.8;
-}
+} */
 
 .cars {
     width: 100%;
