@@ -20,6 +20,32 @@ h2 {
     font-weight: bold;
 }
 
+.bold-year {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hr-red {
+    width: 100px;
+    height: 5px !important;
+    background-color: red!important;
+    border: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+/* .hr-red-sub {
+    width: 100px;
+    height: 2px !important;
+    background-color: red!important;
+    border: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+} */
+
 
 /* Header Image */
 
@@ -100,6 +126,7 @@ h2 {
     }
 }
 
+
 /* .left {
     position: absolute;
     width: 50%;
@@ -124,13 +151,24 @@ h2 {
 } */
 
 .title {
-    font-size: 30px;
+    font-size: 50px;
     padding: 30px;
     margin-top: 25px;
 }
 
 .car-title {
+    font-size: 35px;
     padding: 20px;
+}
+
+
+/* about */
+
+#about {
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
 }
 
 
@@ -215,7 +253,7 @@ h1 {
 }
 
 #car-section {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .section-past-first {
