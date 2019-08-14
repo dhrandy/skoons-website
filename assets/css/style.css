@@ -237,10 +237,10 @@ h1 {
 
 .social {
     font-size: 45px;
-    color: white;
 }
 
-.social a:visited {
+.social a:visited,
+.social a:link {
     color: white;
 }
 
